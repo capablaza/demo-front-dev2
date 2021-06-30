@@ -10,6 +10,7 @@ import { MaterialModule } from './material/material.module';
 import { SelectCreditComponent } from './select-credit/select-credit.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ConsumerCreditComponent } from './consumer-credit/consumer-credit.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     WelcomeComponent,
     PagenotfoundComponent,
     SelectCreditComponent,
+    ConsumerCreditComponent
   ],
   imports: [
     BrowserModule,
